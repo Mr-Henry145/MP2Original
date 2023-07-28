@@ -1,193 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/b1e5b71200.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayoral MP2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b1e5b71200.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <div class="nav">
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
 
-      <a href="#" class="logo">
-        
-      </a>
-      <div>
-        <ul id="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="shop.html">Shop</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cart.html"> Cart</a></li>
-        </ul>
-      </div>
-      <div class="box">
-        <div class="cart-count">0</div>
-        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
-      </div>
-
-      <div class="cart">
-        <div class="cart-title">Cart Items</div>
-        <div class="cart-content">
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"> Cart</a></li>
+            </ul>
         </div>
-        
-      <div class="total">
-        <div class="total-title">Total</div>
-        <div class="total-price">Rs.0</div>
-      </div>
+    </section>
 
-      <a class="btn-buy" href="cart.html">Place Order</a>
-
-      <ion-icon name="close" id="cart-close"></ion-icon>
-
-      </div>
-    </div>
-  </header>
-  <div class="container">
     
-    <h2 class="title">Discover the Best Watch</h2>
-    <div class="container">
-      <h2 class="section-p1">Hot Products on Sale</h2>
-      <p class="section-p2">Summer collection New Morden Design</p>
-    </div>
-    <div class="shop-content">
-      <div class="watch">
-        <div class="pic">
-          <a href="product1.html"> <img src="f1.jpg"  class="watch-img">
-          </a>
+
+    <section id="product1" class="section-p1">
+        <h2>Hot Products on Sale</h2>
+        <p>Summer collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <a href="product1.html">
+                    <img src="f1.jpg" alt="">
+                </a>
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Series 8: Ultra - Bright Orange</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
+            <div class="pro">
+                <a href="product2.html">
+                    <img src="f2.jpg" alt="">
+                </a>
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Series 8: Ultra - Purple Fog</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
+            <div class="pro">
+                <a href="product3.html">
+                    <img src="f3.jpg" alt="">
+                </a>
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Series 8: Ultra - Pride Edition</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="f4.jpg" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Watch SE - Storm Blue</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
         </div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Bright Orange</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
+    </section>
 
-
-      <div class="watch">
-        <div class="pic">
-          <a href="product2.html"> <img src="f2.jpg"  class="watch-img">
-          </a>
+    <section id="product1" class="section-p1">
+        <h2>Limited Edition</h2>
+        <p>Elite Collection From Major Brand.</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="f1.jpg" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Series 8: Ultra - Orange</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="f1.jpg" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Series 8: Ultra - Orange</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="f1.jpg" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Series 8: Ultra - Orange</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="f3.jpg" alt="">
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Apple Series 8: Ultra - Orange</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                    <a class="add-to-cart" href="#"> Add to cart</a>
+                </div>
+            </div>
         </div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Purple Fog</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
-  
-      <div class="watch">
-        <div class="pic">
-          <a href="product3.html"> <img src="f3.jpg"  class="watch-img">
-          </a>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>Buy 1 get 1 free</h2>
+            <span>The quality smartwatches are up for grab</span>
+            <button class="white">Learn More</button>
         </div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Pride Edition</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
-  
-      <div class="watch">
-        <div class="pic"><img src="f4.jpg" class="watch-img"></div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Pride Edition</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
-    </div>
-  </div>
-
-  <div class="container" style="margin-top: -150px;">
-    
-    <h2 class="title">Discover the Best Watch</h2>
-    <div class="container">
-      <h2 class="section-p1">Limited Edition</h2>
-      <p class="section-p2">Summer collection New Morden Design</p>
-    </div>
-    <div class="shop-content">
-      <div class="watch">
-        <div class="pic">
-          <img src="f1.jpg" class="watch-img">
+        <div class="banner-box banner-box2">
+            <h4>new release</h4>
+            <h2>Upcoming season</h2>
+            <span>The quality smartwatches are up for grab</span>
+            <button class="white">Collection</button>
         </div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Bright Orange</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
+    </section>
 
+    <section id="banner3"> 
+        <div class="banner-box">  
+            <h2>SEASONAL SALE</h2>
+            <h3>Ruby Collection -50% OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">  
+            <h2>HIGH DEMAND</h2>
+            <h3>Sapphire Limited Edition</h3>
+        </div>
+        <div class="banner-box banner-box3">  
+            <h2>1 out 1 Collection</h2>
+            <h3>More than 50+ Utilities</h3>
+        </div>
+    </section>
 
-      <div class="watch">
-        <div class="pic"><img src="f2.jpg" class="watch-img"></div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Purple Fog</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
-  
-      <div class="watch">
-        <div class="pic"><img src="f3.jpg" class="watch-img"></div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Pride Edition</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
-  
-      <div class="watch">
-        <div class="pic"><img src="f4.jpg" class="watch-img"></div>
-        <h2 class="watch-title">Apple</h2>
-        <h3 class="watch-desc">Apple Series 8: Pride Edition</h3>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i><br>
-        <span class="watch-price">₱25990</span>
-        <ion-icon name="cart" class="add-cart"></ion-icon>
-      </div>
-  
-      
-      
+    <section id="newsletter" class="section-p1 section-m1" >
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer id="footer" class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Rizal Estanzuela St. Iloilo City, 5000</p>
+            <p><strong>Phone:</strong> (+63) 995 147 6046</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img class="payment" src="img/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+    <div class="copyright section-p1" >
+        <p>&copy; 2023, Unli Jiit Copr: SmartWatch</p>
     </div>
-  </div>
-  <script src="app.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
